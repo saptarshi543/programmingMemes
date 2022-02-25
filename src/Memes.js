@@ -15,7 +15,6 @@ const style_pic_vertical={
 };
 return(
 <div>
-<img alt="just some memes" style={style_pic_horizontal} src="https://miro.medium.com/max/1400/0*8WOQqXZdBwC3BC43"/>
 <img alt="just some memes" style={style_pic_vertical} src="https://64.media.tumblr.com/8fc1c76c29dd2741efa267b4915840e1/58ff3b63955cb269-ff/s1280x1920/cb8ad4045fa3892dcc91730c93c352b97299b96b.jpg" />
 </div>
 	);
