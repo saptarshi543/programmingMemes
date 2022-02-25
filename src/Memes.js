@@ -1,12 +1,12 @@
 import React from "react";
 
 function Memes(){
-const style_pic_horizontal={
-	width: "250px",
-	height: "300px",
-	padding: "20px",
-	borderRadius: "15px"
-};
+// const style_pic_horizontal={
+// 	width: "250px",
+// 	height: "300px",
+// 	padding: "20px",
+// 	borderRadius: "15px"
+// };
 const style_pic_vertical={
 	width:"250px",
 	height:"400px",
