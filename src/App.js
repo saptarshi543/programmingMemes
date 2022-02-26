@@ -1,7 +1,6 @@
 import './App.css';
-import Memes from './Memes';
 import Me from './Me.js';
-import MemesTwo from './MemesTwo.js'
+import Show from './Show.js';
 
 function App() {
   return (
@@ -10,10 +9,9 @@ function App() {
     <h1>most of these memes are taken from monkeyuser.com. So go and show them some love</h1>
     <a href="https://www.monkeyuser.com/" target="blank" rel="noreferrer">monkeyuser.com</a>
     <br></br>
-    <Memes />
-
     <br></br>
-    <MemesTwo />
+    <Show />
+    <br></br>
      <Me />
     </div>
   );
