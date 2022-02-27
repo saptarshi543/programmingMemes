@@ -10,9 +10,10 @@ function App() {
     <a href="https://www.monkeyuser.com/" target="blank" rel="noreferrer">monkeyuser.com</a>
     <br></br>
     <br></br>
-    <Show />
-    <br></br>
      <Me />
+    <br></br>
+    <Show />
+    
     </div>
   );
 }
