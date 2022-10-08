@@ -17,11 +17,14 @@ class Show extends React.Component{
     listOfImages=this.importAll(require.context('./data/', false, /\.(png|jpe?g|svg)$/));    
   }
   render(){
-    return(
+var count=0;
+	  return(
       <div>
       {
-        listOfImages.map((image,index)=> <img key={index} src={image} loading="lazy" style={myStyle_horizontal} alt="info"></img> )
+        listOfImages.map((image,index)=> <img key={index} src={image} title={++count}  loading="lazy" style={myStyle_horizontal} alt="info"></img> )
       }
+
+		  <p>Total number of memes: {count}</p>
       </div>
       )
   }
